@@ -1,0 +1,212 @@
+* {
+    font-family: Cambria;
+}
+
+body {
+	background-image: url("IMAGES/background.jpg");
+	background-position: center center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.navbar {
+    background-color: black;
+    justify-content: center;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px white;
+    -moz-box-shadow: 0 8px 6px -6px white;
+    box-shadow: 0 8px 6px -6px white;
+}
+
+.navbar h1 {
+    margin-top: 10px;
+    color: white;
+}
+
+.container {
+    background-color: None;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* -- Carte social ---------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+.card {
+    background: white;
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    width: 40%;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.card .informations {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card h1 {
+    margin-top: 30px;
+}
+.card h2 {
+    font-size: 1.3em;
+}
+
+.card h1, .card h2, .card img {
+    transition: all 0.5s;
+}
+
+.card:hover img, .card:hover h1, .card:hover h2 {
+    transform: translateY(-50px);
+}
+
+.card .icon {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+  
+.card .icon a i {
+    margin: 10px;
+    color: black;
+    transition: all 1s;
+    transform: translateY(100px);
+}
+  
+.card:hover .icon a i {
+    transform: translateY(25px);
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+/* -- PRESENTATION ---------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+.presentation .information {
+    text-align: justify;
+    font-size: 1.125em;
+}
+
+.site_2nd .information {
+    text-align: justify;
+    font-size: 1.125em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
