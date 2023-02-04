@@ -103,18 +103,47 @@ body {
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
-/* -- PRESENTATION ---------------------------------------------------------------------------------------------------------------------- */
+/* -- SITE 2nd -------------------------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 
-.site_2nd .btn {
+.site_2nd .presentation {
     border: solid 1px black;
+    justify-content: center;
+    align-items: center;
 }
 
-.site_2nd .btn::before, .site_2nd .btn::after {
-	transition: all .3s;
+/* --------------------------------------------------- */
+
+.card2 {
+    background: white;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all .3s;
 }
 
-.site_2nd .btn:hover {
-	width: 1050px;
-    height: 1000px;
+.card2 a {
+    text-decoration: none;
+}
+
+.card2 h2 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.site_2nd .card2::before, .site_2nd .card2::after {
+	width: 50px;
+    height: 100px;
+}
+
+.site_2nd .card2:hover {
+	width: 1000px;
+    height: 500px;
+}
+
+.card .img {
+    position: absolute;
+    bottom: 50px;
 }
